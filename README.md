@@ -1,2 +1,0 @@
-# Mico-Indigo
-Stores websites
