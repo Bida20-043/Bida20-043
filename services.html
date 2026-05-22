@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services - Indigo Analytics Hub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Our Services</h1>
+<header class="site-header">
+    <div class="brand">
+        <h1>Indigo Analytics Hub</h1>
+        <p>Our Services</p>
+    </div>
+    <button class="mobile-menu-btn">☰</button>
 </header>
 
-<nav>
+<nav class="main-nav">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -23,29 +28,35 @@
 
 <main>
     <section>
-        <h2>Analytics Solutions</h2>
+        <div class="section-header">
+            <h2>Analytics Solutions</h2>
+        </div>
 
-        <article>
-            <h3>Business Dashboards</h3>
-            <p>Interactive dashboards that visualize key performance indicators.</p>
-        </article>
+        <div class="card-grid">
+            <article class="card">
+                <h3>Business Dashboards</h3>
+                <p>Interactive dashboards that visualize key performance indicators.</p>
+            </article>
 
-        <article>
-            <h3>Predictive Analytics</h3>
-            <p>Forecast trends using statistical models and machine learning techniques.</p>
-        </article>
+            <article class="card">
+                <h3>Predictive Analytics</h3>
+                <p>Forecast trends using statistical models and machine learning techniques.</p>
+            </article>
 
-        <article>
-            <h3>Data Reporting</h3>
-            <p>Generate structured reports to support strategic decisions.</p>
-        </article>
+            <article class="card">
+                <h3>Data Reporting</h3>
+                <p>Generate structured reports to support strategic decisions.</p>
+            </article>
+        </div>
     </section>
 
     <section>
-        <h2>Consulting</h2>
-        <p>
-            We help businesses design and implement data strategies tailored to their operations.
-        </p>
+        <article class="card">
+            <h2>Consulting</h2>
+            <p>
+                We help businesses design and implement data strategies tailored to their operations.
+            </p>
+        </article>
     </section>
 </main>
 
@@ -53,5 +64,6 @@
     <p>&copy; 2026 Indigo Analytics Hub</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
