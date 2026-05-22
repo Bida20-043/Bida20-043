@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insights - Indigo Analytics Hub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Business Insights</h1>
+<header class="site-header">
+    <div class="brand">
+        <h1>Indigo Analytics Hub</h1>
+        <p>Business Insights</p>
+    </div>
+    <button class="mobile-menu-btn">☰</button>
 </header>
 
-<nav>
+<nav class="main-nav">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -22,30 +27,46 @@
 </nav>
 
 <main>
+    <section class="content-with-image" style="margin-bottom: 2rem;">
+        <div class="content-text">
+            <h2>Data-Driven Decisions</h2>
+            <p>
+                Transforming raw data into meaningful patterns. See how analytics can elevate your strategic planning.
+            </p>
+        </div>
+        <div class="content-image">
+            <img src="images/woman-looking-sales-statistics-computer-taking-notes.jpg" alt="Analyst reviewing sales statistics">
+        </div>
+    </section>
+
     <section>
-        <h2>Latest Insights</h2>
+        <div class="section-header">
+            <h2>Latest Insights</h2>
+        </div>
 
-        <article>
-            <h3>Revenue Growth Trend</h3>
-            <p>
-                Businesses implementing structured analytics have shown a 20% increase in revenue
-                over six months.
-            </p>
-        </article>
+        <div class="card-grid">
+            <article class="card">
+                <h3>Revenue Growth Trend</h3>
+                <p>
+                    Businesses implementing structured analytics have shown a 20% increase in revenue
+                    over six months.
+                </p>
+            </article>
 
-        <article>
-            <h3>Customer Retention</h3>
-            <p>
-                Data-driven engagement strategies significantly improve customer loyalty.
-            </p>
-        </article>
+            <article class="card">
+                <h3>Customer Retention</h3>
+                <p>
+                    Data-driven engagement strategies significantly improve customer loyalty.
+                </p>
+            </article>
 
-        <article>
-            <h3>Operational Efficiency</h3>
-            <p>
-                Identifying inefficiencies through data reduces operational costs.
-            </p>
-        </article>
+            <article class="card">
+                <h3>Operational Efficiency</h3>
+                <p>
+                    Identifying inefficiencies through data reduces operational costs.
+                </p>
+            </article>
+        </div>
     </section>
 </main>
 
@@ -53,5 +74,6 @@
     <p>&copy; 2026 Indigo Analytics Hub</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
